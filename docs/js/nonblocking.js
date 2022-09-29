@@ -87,17 +87,17 @@
 	sliderTemplate += '		</div>';
 	sliderTemplate += '		<div class="sliderButton sliderButtonLeft">';
 	sliderTemplate += '			<a class="hoverZoom">';
-	sliderTemplate += '				<img src="https://media.githubusercontent.com/media/hoptimized/cragls-web/main/docs/images/arrowRight.png" alt="arrow">';
+	sliderTemplate += '				<img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/images/arrowRight.png" alt="arrow">';
 	sliderTemplate += '			</a>';
 	sliderTemplate += '		</div>';
 	sliderTemplate += '		<div class="sliderButton sliderButtonRight">';
 	sliderTemplate += '			<a class="hoverZoom">';
-	sliderTemplate += '				<img src="https://media.githubusercontent.com/media/hoptimized/cragls-web/main/docs/images/arrowRight.png" alt="arrow">';
+	sliderTemplate += '				<img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/images/arrowRight.png" alt="arrow">';
 	sliderTemplate += '			</a>';
 	sliderTemplate += '		</div>';
 	sliderTemplate += '	</div>';
 
-	var sliderPath = 'https://media.githubusercontent.com/media/hoptimized/cragls-web/main/docs/slider/';
+	var sliderPath = 'https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/';
 	var sliderContainer = '#photoSlider';
 	var currentSlide = 0;
 
