@@ -137,7 +137,10 @@
 					slide(true);
 				});
 
-				let xhttp = new XMLHttpRequest();
+				// disabled automatic loading due to github and git lfs not supporting directory indexing; 
+				// added hard-coded paths instead.
+
+				/*let xhttp = new XMLHttpRequest();
 				xhttp.onreadystatechange = function() {
 					if (this.readyState != 4) return;
 
@@ -155,7 +158,29 @@
 					}
 				};
 				xhttp.open('GET', sliderPath, true);
-				xhttp.send();
+				xhttp.send();*/
+
+				// hard-coded:
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/001.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/002.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/003.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/004.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/005.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/006.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/007.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/008.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/009.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/010.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/011.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/012.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/013.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/014.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/016.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/017.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/018.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/019.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/020.jpg" /></div></div></div>';
+				entry.target.querySelector('.sliderContent').innerHTML += '<div class="slideWrapper"><div class="illustration"><div><img src="https://media.githubusercontent.com/media/hoptimized/cragls-webpage/main/docs/slider/021.jpg" /></div></div></div>';
 
 				observer.unobserve(entry.target);
 			}
